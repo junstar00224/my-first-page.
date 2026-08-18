@@ -1,0 +1,136 @@
+p {
+  color: seagreen;
+}
+h2 {
+  color: rgb(136, 40, 16);
+}
+h3 {
+  color: rgb(153, 65, 240);
+}
+ul {
+  color: rgb(0, 0, 0);
+}
+footer {
+  color: tomato;
+  font-size: 30px;
+}
+a:hover {
+  color: #f659ca;
+}
+.title2 {
+  color: #f19226;
+  font-size: 43px;
+}
+.btn {
+  background-color: #2563eb;
+  color: #ffe311;
+  font-size: 35px;
+}
+body {
+  background-color: #f5f5f5;
+}
+h1 {
+  color: #98afdf;
+  font-size: 32px;
+  font-weight: 700;
+  text-align: center;
+}
+
+p {
+  color: #2c66c4;
+  font-size: 16px;
+  line-height: 1.6;
+  font-family: Arial, sans-serif;
+}
+ol {
+  color: rgb(78, 200, 141);
+  text-align: center;
+  padding: 10px;
+  font-weight: 200;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  line-height: 2;
+}
+.hero {
+  background-color: #eff6ff;
+  background-image: url("newyork.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: repeat;
+  margin: 40px;
+}
+.flex-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+.flex-item {
+  width: 50px;
+  height: 50px;
+  background-color: rgb(238, 207, 54);
+  border: 1px solid red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.content-box {
+  width: 200px;
+  height: 200px;
+  padding: 20px;
+  border: 2px solid rgb(97, 72, 238);
+  box-sizing: content-box;
+}
+footer {
+  color: rgb(93, 151, 113);
+  background-color: #000000;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  width: 400px;
+  height: 30px;
+  padding: 0px;
+  margin: 30px;
+  color: #7733e3;
+  background-color: #ed7b7b;
+  border: 4px double #78e6a1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: auto;
+}
+.btn {
+  display: inline-block;
+}
+.subtitle {
+  font-size: 24px;
+  font-weight: 600;
+  color: hsl(0, 100%, 50%);
+  background-color: #fbff00;
+  padding: 4px 8px;
+  margin: 0;
+  margin-bottom: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nav {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  background-color: #ed7b7b;
+}
+main {
+  width: 90%;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+.cat {
+  max-width: 50%;
+}
